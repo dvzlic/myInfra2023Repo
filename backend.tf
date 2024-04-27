@@ -1,8 +1,8 @@
 terraform {
   backend "s3" {
-    bucket = "terraformfiles2.0"
+    bucket = "betss3"
     key = "main"
     region = "us-east-2"
-    dynamodb_table = "my-dynamodb-table"
+    dynamodb_table = "dynamo-dbtable"
   }
 }
